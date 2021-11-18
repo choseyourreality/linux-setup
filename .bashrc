@@ -13,8 +13,12 @@ export PATH
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
-alias t='ls -hal'
+alias t='ls -hl'
+alias tt='ls -hal'
 alias ..='cd ..'
+alias ...='cd ../..'
 alias v='vim'
 alias s='source /usr/local/etc/ocp4.config | cat /usr/local/etc/ocp4.config'
 alias cmd='cat ~/.bashrc | grep -A 10 aliases'
+alias adm='oc login -u admin -p redhat'
+alias dev='oc login -u developer -p developer'
